@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro'
+const date = new Date()
+const b='orange'
+---
+
+<Layout title="Index">
+    <h1>Novaya chast'</h1>
+	
+	<span style={{color: b}}>{date.toDateString()}</span>
+
+	<a href="/pog">Pogchamp</a>
+</Layout>
